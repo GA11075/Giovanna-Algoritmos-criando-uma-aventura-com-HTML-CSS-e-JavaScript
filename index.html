@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>O Misterio da Floresta Encantada</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            <p>Você, um jovem aventureiro em busca de uma antiga relíquia perdida há séculos na Floresta Encantada. Dizem que a reliquia tem o poder de conceder um desejo a quem a encontrar. No entanto, a floresta conhecida por ser mágica e cheia de mistérios. Você no centro da aldeia, onde alguns moradores se reúnem. Há dois locais onde você pode ir:</p>
+            <button class="btn-proximo" data-proximo="1">A Taverna</button>
+            <button class="btn-proximo" data-proximo="2">A Loja de Poções</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você parte para sua jornada na taverna no final de tarde, observa atenciosamente todos naquele lugar.</p>
+            <button class="btn-proximo" data-proximo="3">Conversar com alguém para descobrir informações</button>
+            <button class="btn-proximo" data-proximo="4">Observar um pouco,tendo cautela</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Na loja, você encontra um grupo de clientes e alquimistas conversando e decide se aproximar.</p>
+            <button class="btn-proximo" data-proximo="5">Perguntar sobre magia e itens mágicos.</button>
+            <button class="btn-proximo" data-proximo="6">Chamá-los para fazer parte do seu grupo e, juntos, achar a relíquia antiga.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Na taverna, você pergunta para a pessoa sentada o seu lado se ela já ouviu falar da relíquia. A mulher afirma que sim, e começa  contar todas as lendas que ela sabe sobre.</p>
+            <button class="btn-proximo" data-proximo="7">Conversar mais</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/observar.png" alt="">
+            <p>Você percebe umas pessoas contando sobre suas aventuras, até que ela cita o que você mais quer saber: a relíquia.</p>
+            <button class="btn-proximo" data-proximo="7">Escutar tudo e chamá-los para o seu grupo.</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você se aproxima do vendedor e pede uma espada forjada com um feitiço que a torna mais inquebrável. Por ser um pedido caro e incomum, as pessoas ao redor se interessam e te questionam sobre qual será a ocasião.</p>
+            <button class="btn-proximo" data-proximo="7">Contar tudo e chamá-los para o seu grupo.</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Quase todos aceitam instantaneamente,e,juntos,vocês decidem ir para a taverna, onde há vários marinheiros e aventureiros que podem oferecer informações.</p>
+            <button class="btn-proximo" data-proximo="8">Pegue sua espada e avance para a taverna com seus novos amigos</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p> Com a informação que você tem, pensa em seguir em direção ao lugar que a lenda diz: o topo da montanha. E se pergunta se quer mesmo um grupo para ter que dividir a conquista com estranhos.</p>
+            <button class="btn-proximo" data-proximo="11">Ir com um grupo</button>
+            <button class="btn-proximo" data-proximo="10">Tentar ir sozinho</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Uma mulher senta o seu lado, parece uma pirata com muita história para contar, deve saber sobre a lenda também.</p>
+            <button class="btn-proximo" data-proximo="7">Peça uma bebida também e puxe assunto com ela</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Quase todos aceitam instantaneamente,e,juntos,vocês decidem ir té a loja de poções para comprar armas efeitiçadas.</p>
+            <button class="btn-proximo" data-proximo="11">Comprar e seguir em direção ao topo da montanha onde, segundo a lenda,está a relíquia.</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="floresta brilhando.png" alt="">
+            <p>Vocês começam a ver algo brilhar bem longe</p>
+            <button class="btn-proximo" data-proximo="12">Seguir</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="floresta escura.png"alt="Você se perdeu no meio do caminho">
+            <p>Não tente fazer tudo sozinho, a ganância e o sentimento de autossuficiência o levou a um caminho sem volta. Você morreu.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <img src="pedra.png"alt="Deixo meu amigo pegar a pedra">
+            <p>Parabéns. Vocês finalmente encontram a relíquia depois de dias andando e tentando manter o astral do grupo e lidando com toda as dificuldades juntos. A relíquia está quase desenterrada por completo, os alagmentos devem ter trazido a relíquia para a superfície da terra.</p>
+            
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+    
